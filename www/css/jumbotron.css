@@ -1,0 +1,27 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+/*  padding-top: 50px; */
+  padding-bottom: 20px;
+}
+
+.jumbotron.jumbotron-dark {
+  background-color: #101010;
+}
+
+.tag-parent {
+  position: relative;
+}
+
+.tag {
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  bottom: -26px;
+  height: 26px;
+  position: absolute;
+  width: 100%;
+}
+
+.tag-bottom {
+  background-image: url('../img/tri.down.png');
+}
+
