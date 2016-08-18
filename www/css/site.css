@@ -1,0 +1,11 @@
+
+.navbar-brand {
+  background-image: url('../img/logo.cr.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 50px;
+  margin-right: 40px;
+  width: 140px;
+}
+
