@@ -1,12 +1,1 @@
-
-.navbar-brand {
-  background-image: url('../img/logo.cr.svg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  height: 50px;
-  margin: auto 30px auto 50px !important;
-  width: 140px;
-}
-
+../../../bootstrap/dist/css/site.css
