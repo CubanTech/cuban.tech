@@ -6841,3 +6841,7 @@ button.close {
   margin: auto 30px auto 50px !important;
   width: 140px;
 }
+.btn-primary:hover {
+  background-color: #620e0e;
+  border-color: #2c0606;
+}
