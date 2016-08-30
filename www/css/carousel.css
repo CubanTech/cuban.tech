@@ -92,6 +92,16 @@ body {
   letter-spacing: -1px;
 }
 
+.featurette-container {
+  height: 120px;
+}
+
+.featurette-icon {
+  font-size: 100px;
+  color: #249db0;
+  background-color: #eaeaea;
+  padding: 15px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
