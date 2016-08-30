@@ -6858,3 +6858,25 @@ button.close {
 body {
   margin-top: 85px;
 }
+hr {
+  background: transparent;
+  border: 0;
+  border-left: 115px solid;
+  border-right: 115px solid;
+  display: block;
+  height: 1px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: 'Glyphicons Halflings';
+  position: relative;
+  width: 50px;
+}
+hr:before {
+  content: "\e006";
+  position: absolute;
+  text-align: center;
+  left: 18px;
+  top: -11px;
+}
