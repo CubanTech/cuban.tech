@@ -6845,6 +6845,10 @@ button.close {
   background-color: #620e0e;
   border-color: #2c0606;
 }
+.navbar .dropdown li:hover .btn-primary {
+  background-color: #249db0;
+  border-color: #1a707d;
+}
 .carousel .btn-default {
   background-color: rgba(60, 60, 60, 0.7);
   color: #fff;
