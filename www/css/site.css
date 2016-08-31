@@ -1160,7 +1160,7 @@ body {
   font-family: "TitilliumWeb Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
+  color: #17202f;
   background-color: #fff;
 }
 input,
@@ -1177,7 +1177,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #010509;
+  color: #620e0e;
   text-decoration: underline;
 }
 a:focus {
@@ -2995,7 +2995,7 @@ select[multiple].input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #415a85;
 }
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -3504,7 +3504,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #010509;
+  color: #620e0e;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4834,7 +4834,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #010509;
+  color: #620e0e;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -5111,7 +5111,7 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: #17202f;
 }
 .alert {
   padding: 15px;
@@ -6883,4 +6883,71 @@ hr:before {
   text-align: center;
   left: 18px;
   top: -11px;
+}
+.panel {
+  position: relative;
+}
+[class^="panel-caret-"],
+[class*=" panel-caret-"] {
+  color: #ddd;
+}
+.panel-caret-bottom {
+  border-top: 16px dashed;
+  border-top: 16px solid \9;
+  border-right: 16px solid transparent;
+  border-left: 16px solid transparent;
+  border-bottom: none;
+  bottom: -16px;
+  display: inline-block;
+  height: 0;
+  left: 50%;
+  margin-left: 2px;
+  position: absolute;
+  vertical-align: middle;
+  width: 0;
+}
+.panel-caret-top {
+  border-bottom: 16px dashed;
+  border-bottom: 16px solid \9;
+  border-right: 16px solid transparent;
+  border-left: 16px solid transparent;
+  border-top: none;
+  display: inline-block;
+  height: 0;
+  left: 50%;
+  margin-left: 2px;
+  position: absolute;
+  top: -16px;
+  vertical-align: middle;
+  width: 0;
+}
+.panel-caret-right {
+  border-left: 16px dashed;
+  border-left: 16px solid \9;
+  border-bottom: 16px solid transparent;
+  border-top: 16px solid transparent;
+  border-right: none;
+  display: inline-block;
+  height: 0;
+  right: -16px;
+  margin-left: 2px;
+  position: absolute;
+  top: 50%;
+  vertical-align: middle;
+  width: 0;
+}
+.panel-caret-left {
+  border-right: 16px dashed;
+  border-right: 16px solid \9;
+  border-bottom: 16px solid transparent;
+  border-top: 16px solid transparent;
+  border-left: none;
+  display: inline-block;
+  height: 0;
+  left: -18px;
+  margin-left: 2px;
+  position: absolute;
+  top: 50%;
+  vertical-align: middle;
+  width: 0;
 }
