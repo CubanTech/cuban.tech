@@ -6890,6 +6890,14 @@ hr:before {
 [class^="panel-caret-"],
 [class*=" panel-caret-"] {
   color: #ddd;
+  display: inline-block;
+  height: 0;
+  margin: auto;
+  position: absolute;
+  width: 0;
+}
+.panel-caret-inner {
+  color: #fff !important;
 }
 .panel-caret-bottom {
   border-top: 16px dashed;
@@ -6898,13 +6906,18 @@ hr:before {
   border-left: 16px solid transparent;
   border-bottom: none;
   bottom: -16px;
-  display: inline-block;
-  height: 0;
-  left: 50%;
-  margin-left: 2px;
-  position: absolute;
-  vertical-align: middle;
-  width: 0;
+  left: 0;
+  right: 0;
+}
+.panel-caret-bottom .panel-caret-inner {
+  border-top: 14px dashed;
+  border-top: 14px solid \9;
+  border-right: 14px solid transparent;
+  border-left: 14px solid transparent;
+  border-bottom: none;
+  top: -16px;
+  left: -14px;
+  right: 0;
 }
 .panel-caret-top {
   border-bottom: 16px dashed;
@@ -6912,14 +6925,19 @@ hr:before {
   border-right: 16px solid transparent;
   border-left: 16px solid transparent;
   border-top: none;
-  display: inline-block;
-  height: 0;
-  left: 50%;
-  margin-left: 2px;
-  position: absolute;
+  left: 0;
+  right: 0;
   top: -16px;
-  vertical-align: middle;
-  width: 0;
+}
+.panel-caret-top .panel-caret-inner {
+  border-bottom: 14px dashed;
+  border-bottom: 14px solid \9;
+  border-right: 14px solid transparent;
+  border-left: 14px solid transparent;
+  border-top: none;
+  bottom: -16px;
+  left: -14px;
+  right: 0;
 }
 .panel-caret-right {
   border-left: 16px dashed;
@@ -6927,14 +6945,19 @@ hr:before {
   border-bottom: 16px solid transparent;
   border-top: 16px solid transparent;
   border-right: none;
-  display: inline-block;
-  height: 0;
+  bottom: 0;
   right: -16px;
-  margin-left: 2px;
-  position: absolute;
-  top: 50%;
-  vertical-align: middle;
-  width: 0;
+  top: 0;
+}
+.panel-caret-right .panel-caret-inner {
+  border-left: 14px dashed;
+  border-left: 14px solid \9;
+  border-bottom: 14px solid transparent;
+  border-top: 14px solid transparent;
+  border-right: none;
+  bottom: 0;
+  left: -16px;
+  top: 0;
 }
 .panel-caret-left {
   border-right: 16px dashed;
@@ -6942,12 +6965,17 @@ hr:before {
   border-bottom: 16px solid transparent;
   border-top: 16px solid transparent;
   border-left: none;
-  display: inline-block;
-  height: 0;
-  left: -18px;
-  margin-left: 2px;
-  position: absolute;
-  top: 50%;
-  vertical-align: middle;
-  width: 0;
+  bottom: 0;
+  left: -16px;
+  top: 0;
+}
+.panel-caret-left .panel-caret-inner {
+  border-right: 14px dashed;
+  border-right: 14px solid \9;
+  border-bottom: 14px solid transparent;
+  border-top: 14px solid transparent;
+  border-left: none;
+  bottom: 0;
+  right: -16px;
+  top: 0;
 }
