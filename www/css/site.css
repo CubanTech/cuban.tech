@@ -7006,7 +7006,7 @@ footer .container-fluid {
 }
 #footer-logo {
   background-image: url('../img/logo.c.svg');
-  background-position: center top;
+  background-position: right -35px top 0px;
   background-repeat: no-repeat;
   background-size: contain;
   float: right;
