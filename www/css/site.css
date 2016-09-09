@@ -6979,3 +6979,38 @@ hr:before {
   right: -16px;
   top: 0;
 }
+#footer-links {
+  background-image: url("../img/footer.1x.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  #footer-links {
+    background-image: url("../img/footer.2x.png");
+    background-size: 652px 225px;
+  }
+}
+footer .container-fluid {
+  background-color: #17202f;
+}
+#footer a {
+  color: #fff;
+}
+#footer a:hover,
+#footer a:focus {
+  color: #249db0;
+  text-decoration: none;
+}
+#footer-copy {
+  background-color: #0e141d;
+}
+#footer-logo {
+  background-image: url('../img/logo.c.svg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  margin-top: 30px;
+  min-height: 80px;
+  min-width: 120px;
+}
