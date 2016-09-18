@@ -20,37 +20,37 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-tech:before {
-  content: "\e900";
+  content: "\e900" !important;
 }
 .icon-edu:before {
-  content: "\e901";
+  content: "\e901" !important;
 }
 .icon-users:before {
-  content: "\e902";
+  content: "\e902" !important;
 }
 .icon-blogger:before {
-  content: "\e903";
+  content: "\e903" !important;
 }
 .icon-twitter:before {
-  content: "\e904";
+  content: "\e904" !important;
 }
 .icon-fb:before {
-  content: "\e905";
+  content: "\e905" !important;
 }
 .icon-youtube:before {
-  content: "\e906";
+  content: "\e906" !important;
 }
 .icon-star:before {
-  content: "\e907";
+  content: "\e907" !important;
 }
 .icon-chevron-left:before {
-  content: "\e908";
+  content: "\e908" !important;
 }
 .icon-chevron-right:before {
-  content: "\e909";
+  content: "\e909" !important;
 }
 .icon-chevron-top:before {
-  content: "\e90a";
+  content: "\e90a" !important;
 }
 @include "variables.less";
 @include "variables.site.less";
@@ -4606,7 +4606,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  border-bottom: 2px #072d4f solid;
   color: #072d4f;
   background-color: transparent;
 }
@@ -7013,4 +7012,19 @@ footer .container-fluid {
   margin-top: 30px;
   min-height: 80px;
   min-width: 120px;
+}
+.navbar-nav > .active > a > .nav-item-main {
+  padding-bottom: 10px;
+}
+.navbar-nav > .active > a > .nav-item-main,
+.navbar-nav > .active > a > .nav-item-main:hover,
+.navbar-nav > .active > a > .nav-item-main:focus {
+  border-bottom: 2px #072d4f solid;
+  color: #072d4f;
+  background-color: transparent;
+}
+@media (max-width: 767px) {
+  .navbar a {
+    text-align: center;
+  }
 }
