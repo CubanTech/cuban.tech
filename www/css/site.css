@@ -7028,3 +7028,8 @@ footer .container-fluid {
     text-align: center;
   }
 }
+@media (max-width: 767px) {
+  #footer-links {
+    background-image: none !important;
+  }
+}
